@@ -1,0 +1,4 @@
+<!--components/toast/toast.wxml-->
+<view class='mina-toast' wx:if="{{ show && title}}">
+  {{ title }}
+</view>

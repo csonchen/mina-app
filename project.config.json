@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
 	"appid": "wxd99b7b18836f4690",
-	"projectname": "wxa-components",
+	"projectname": "mina-app",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
