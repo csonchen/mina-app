@@ -1,7 +1,7 @@
 {
-  "name": "wxa-components",
+  "name": "mina-app",
   "version": "1.0.0",
-  "description": "微课小程序组件库",
+  "description": "小程序组件模板库",
   "main": "app.js",
   "directories": {
     "lib": "lib",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csonchen/wxa-components.git"
+    "url": "git+https://github.com/csonchen/mina-app.git"
   },
   "keywords": [
-    "小程序组件"
+    "mina-app"
   ],
   "author": "sam",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/csonchen/wxa-components/issues"
+    "url": "https://github.com/csonchen/mina-app/issues"
   },
-  "homepage": "https://github.com/csonchen/wxa-components#readme"
+  "homepage": "https://github.com/csonchen/mina-app#readme"
 }
