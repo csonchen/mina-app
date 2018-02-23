@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Toast",
+  "usingComponents": {
+    "mina-toast": "/components/toast/toast"
+  }
+}

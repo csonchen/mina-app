@@ -7,7 +7,11 @@ Page({
     components: [
       {
         title: 'Toast 浮动提示',
-        url: '/pages/weapp/toast/toast'
+        url: '/pages/minaApp/toast/toast'
+      },
+      {
+        title: 'Tab 选项卡',
+        url: '/pages/minaApp/tab/tab'
       }
     ]
   }

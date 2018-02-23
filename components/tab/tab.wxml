@@ -1,0 +1,8 @@
+<!--components/tab/tab.wxml-->
+<view class='weui-navbar {{theme || ""}}'>
+  <block wx:for="{{list}}" wx:key="*this" wx:for-index="idx" wx:for-item="v">
+    <view class='weui-navbar__item {{activeIndex == idx ? "weui-bar__item_on" : ""}}' bindtap="action" data-idx="{{idx}}">
+      <view class='weui-navbar__title'>{{v}}</view>
+    </view>
+  </block>
+</view>

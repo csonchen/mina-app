@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="page">
   <view class="page__hd">
-    <view class="page__title">WeApp</view>
+    <view class="page__title">MinaApp</view>
     <view class="page__desc">微信小程序组件封装</view>
   </view>
   <view class="page__bd">
