@@ -1,0 +1,26 @@
+{
+  "name": "wxa-components",
+  "version": "1.0.0",
+  "description": "微课小程序组件库",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csonchen/wxa-components.git"
+  },
+  "keywords": [
+    "小程序组件"
+  ],
+  "author": "sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csonchen/wxa-components/issues"
+  },
+  "homepage": "https://github.com/csonchen/wxa-components#readme"
+}
