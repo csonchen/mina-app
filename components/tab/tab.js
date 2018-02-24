@@ -14,7 +14,7 @@ Component({
     },
     theme: {
       type: String,
-      value: ''
+      value: 'mina-tab__normal'
     }
   },
 
@@ -29,7 +29,7 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    change(event) {
+    action(event) {
       let { activeIndex } = this.data
       let idx = event.currentTarget.dataset.idx
 

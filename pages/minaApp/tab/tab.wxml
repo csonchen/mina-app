@@ -1,2 +1,27 @@
 <!--pages/minaApp/tab/tab.wxml-->
-<text>pages/minaApp/tab/tab.wxml</text>
+<view class='page'>
+  <view class='page__hd'>
+    <view class='page__title'>Tab</view>
+    <view class='page__desc'>选项卡</view>
+  </view>
+  <view class='page__bd page__bd_spacing'>
+    <view class='weui-tab'>
+      <view class='weui-tab__theme'>theme: mina-tab__normal</view>
+      <mina-tab list="{{list}}" activeIndex="{{activeIndex}}" bind:change="onTabChange"></mina-tab>
+      <view class='weui-tab__panel_1'>
+        <view class='weui-tab__content' hidden='{{activeIndex != 0}}'>选项卡一</view>
+        <view class='weui-tab__content' hidden='{{activeIndex != 1}}'>选项卡二</view>
+        <view class='weui-tab__content' hidden='{{activeIndex != 2}}'>选项卡三</view>
+      </view>
+    </view>
+
+    <view class='weui-tab'>
+      <view class='weui-tab__theme'>theme: mina-tab__primary</view>
+      <mina-tab list="{{list2}}" activeIndex="{{activeIndex2}}" theme="mina-tab__primary" bind:change="onTabChange2"></mina-tab>
+      <view class='weui-tab__panel_2'>
+        <view class='weui-tab__content' hidden="{{activeIndex2 != 0}}">选项卡一</view>
+        <view class='weui-tab__content' hidden="{{activeIndex2 != 1}}">选项卡二</view>
+      </view>
+    </view>
+  </view>
+</view>
