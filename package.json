@@ -1,6 +1,6 @@
 {
   "name": "mina-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "小程序组件模板库",
   "main": "app.js",
   "directories": {

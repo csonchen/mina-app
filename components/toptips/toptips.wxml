@@ -1,0 +1,4 @@
+<!--components/toptips/toptips.wxml-->
+<view class='toptips {{theme}}' wx:if="{{show && title}}">
+  {{title}}
+</view>

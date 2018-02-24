@@ -12,6 +12,10 @@ Page({
       {
         title: 'Tab 选项卡',
         url: '/pages/minaApp/tab/tab'
+      },
+      {
+        title: 'Toptips 顶部提示',
+        url: '/pages/minaApp/toptips/toptips'
       }
     ]
   }
