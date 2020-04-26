@@ -1,0 +1,13 @@
+<view class="defaultBlock flex-center-between mb10">
+  <view class="flex-middle">
+    <text class="font18">待付款</text>
+  </view>
+
+  <!-- 倒计时 -->
+  <view class="countDown">
+    <text class="font14 gray" wx:if="{{label}}"> {{label}} </text>
+    <text class="font14 black">
+      <block wx:if="{{days}}">{{days}}天</block><block wx:if="{{hours}}">{{hours}}小时</block>{{minutes}}分{{seconds}}秒
+    </text>
+  </view>
+</view>

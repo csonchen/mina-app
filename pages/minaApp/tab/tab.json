@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "Tab",
-  "usingComponents": {
-    "mina-tab": "/components/tab/tab"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "toptips",
-  "usingComponents": {
-    "mina-toptips": "/components/toptips/toptips/"
-  }
-}

@@ -2,14 +2,16 @@
 <view class="page">
   <view class="page__hd">
     <view class="page__title">MinaApp</view>
-    <view class="page__desc">微信小程序组件封装</view>
+    <view class="page__desc"></view>
   </view>
-  <view class="page__bd">
-    <view class="weui-cells weui-cells_after-title">
-      <navigator url="{{item.url}}" class="weui-cell weui-cell_access" hover-class="weui-cell_active" wx:for="{{components}}" wx:for-index="idx" wx:key="*this">
-        <view class="weui-cell__bd">{{item.title}}</view>
-        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-      </navigator>
-    </view>
+
+  <view style="padding: 0 12px;">
+    <!-- 正常倒计时 -->
+    <!-- <normalTime label="剩余支付时间" remainSecond="{{ remainTimes }}" bind:end="onNormalTimeEnd"></normalTime> -->
+
+    <!-- worker下的倒计时 -->
+    <workerTime label="剩余支付时间" remainSecond="{{ remainTimes }}" bind:end="onNormalTimeEnd"></workerTime>
+
+    <navigator url="../logs/logs">去logs页面</navigator>
   </view>
 </view>

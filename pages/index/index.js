@@ -3,20 +3,22 @@
 const app = getApp()
 
 Page({
+  remainTimes: 100,
+
   data: {
-    components: [
-      {
-        title: 'Toast 浮动提示',
-        url: '/pages/minaApp/toast/toast'
-      },
-      {
-        title: 'Tab 选项卡',
-        url: '/pages/minaApp/tab/tab'
-      },
-      {
-        title: 'Toptips 顶部提示',
-        url: '/pages/minaApp/toptips/toptips'
-      }
-    ]
+    remainTimes: 100,
+  },
+
+  onShow() {
+    // this.refreshTime()
+  },
+
+  refreshTime() {
+    console.log('===== 获取服务器时间成功 =====')
+    this.setData({ remainTimes: this.remainTimes-- })
+  },
+
+  onNormalTimeEnd() {
+    console.log('===== normalTime组件：倒计时结束=====')
   }
 })

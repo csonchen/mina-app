@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "normalTime": "/components/normalTime/normalTime",
+    "workerTime": "/components/workerTime/workerTime"
+  }
+}
