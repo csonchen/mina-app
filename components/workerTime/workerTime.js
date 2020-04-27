@@ -12,6 +12,7 @@ Component({
       observer(newVal, oldVal) {
         if (newVal && newVal > 0) {
           this.worker = wx.createWorker('workers/timeWorker.js')
+          console.log('==== worker创建了 ====')
 
           // worker线程通信 - 发送
           this.worker.postMessage({
@@ -30,6 +31,7 @@ Component({
 
   detached() {
     this.worker.terminate()
+    console.log('==== worker销毁了 ====')
   },
 
   data: {
