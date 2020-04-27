@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/main/main",
+    "pages/normalTimePage/normalTimePage",
+    "pages/workerTimePage/workerTimePage",
     "pages/logs/logs"
   ],
   "window": {

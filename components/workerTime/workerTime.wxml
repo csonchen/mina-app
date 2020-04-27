@@ -1,4 +1,4 @@
-<view class="defaultBlock flex-center-between mb10">
+<view class="box flex-center-between mb10">
   <view class="flex-middle">
     <text class="font18">待付款</text>
   </view>

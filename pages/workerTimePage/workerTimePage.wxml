@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="pageWrapper flex-middle flex-column" style="padding: 20px 12px;">
+  <!-- worker下的倒计时 -->
+  <workerTime class="mb15" style="width: 100%;" label="剩余支付时间" remainSecond="{{ remainTimes }}" bind:end="onNormalTimeEnd"></workerTime>
+
+  <navigator class="normal-btn mb15" url="../logs/logs">我要离开页面了</navigator>
+</view>

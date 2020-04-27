@@ -6,6 +6,8 @@ let inter = null
  */
 const beginCountdown = (totalSeconds) => {     
   const [ days, hours, minutes, seconds ] = getTime(totalSeconds)
+
+  // 向主线程组件传递信息
   worker.postMessage({
     days,
     hours,
@@ -22,6 +24,7 @@ const beginCountdown = (totalSeconds) => {
       clearTime()
     }
 
+    // 向主线程组件传递信息
     worker.postMessage({
       days,
       hours,
@@ -52,6 +55,7 @@ const clearTime = () => {
   inter = null
 }
 
+// 接收初始时间，开始倒计时
 worker.onMessage((res) => {
   beginCountdown(res.remainSeconds)
 })

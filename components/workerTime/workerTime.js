@@ -1,5 +1,3 @@
-const worker = wx.createWorker('workers/timeWorker.js')
-
 Component({
   inter: null,
 
@@ -13,16 +11,25 @@ Component({
       value: 0,
       observer(newVal, oldVal) {
         if (newVal && newVal > 0) {
-          worker.postMessage({
+          this.worker = wx.createWorker('workers/timeWorker.js')
+
+          // worker线程通信 - 发送
+          this.worker.postMessage({
             remainSeconds: newVal
           })
 
-          worker.onMessage((res) => {
+          // worker线程通信 - 接收
+          this.worker.onMessage((res) => {
+            console.log("time:", res)
             this.setData({ ...res })
           })
         }
       }
     } 
+  },
+
+  detached() {
+    this.worker.terminate()
   },
 
   data: {
@@ -31,7 +38,5 @@ Component({
     hours: 0,
     minutes: 0,
     seconds: 0,
-  },
-  
-  methods: {}
+  }
 })

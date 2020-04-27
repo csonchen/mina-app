@@ -1,0 +1,7 @@
+<view class="page">
+  <view class="flex-column flex-center-xy">
+    <view class="font20 bold mb20">小程序开发倒计时的思考</view>
+    <navigator class="normal-btn mb15" url="/pages/normalTimePage/normalTimePage">1. 定时器组件</navigator>
+    <navigator class="normal-btn mb15" url="/pages/workerTimePage/workerTimePage">2. worker组件</navigator>
+  </view>
+</view>

@@ -2,6 +2,8 @@
   border-radius: 4px;
   background: #fff;
   padding: 15px 12px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .flex-center-between {

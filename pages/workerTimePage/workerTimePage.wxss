@@ -1,0 +1,5 @@
+/**index.wxss**/
+.pageWrapper {
+  width: 100%;
+  box-sizing: border-box;
+}
