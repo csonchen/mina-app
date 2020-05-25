@@ -3,6 +3,7 @@
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
+		"enhance": true,
 		"postcss": true,
 		"preloadBackgroundData": false,
 		"minified": true,
@@ -19,7 +20,7 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"enhance": true
+		"useCompilerModule": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.10.1",
@@ -37,13 +38,35 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "发布订阅模式",
+					"pathName": "pages/observerPage/observerPage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "测试删除",
+					"pathName": "pages/observerPage/operate",
+					"scene": null
+				}
+			]
 		}
 	}
 }

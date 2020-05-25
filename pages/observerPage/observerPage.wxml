@@ -1,0 +1,9 @@
+<view>
+  <view class="page__hd">列表</view>
+
+  <view class="page__bd page__bd_spacing">
+    <view data-item="{{item}}" bindtap="toOperatePage" class="list-item" wx:for="{{list}}" wx:key="index" wx:for-item="item">
+      · {{item.value}}
+    </view>
+  </view>
+</view>

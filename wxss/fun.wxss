@@ -50,7 +50,9 @@
   font-size: 20px;
 }
 .normal-btn {
-  width: 150px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  min-width: 150px;
   height: 42px;
   line-height: 42px;
   background: #0366d6;

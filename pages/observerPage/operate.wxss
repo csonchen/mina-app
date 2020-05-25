@@ -1,0 +1,11 @@
+.del-btn {
+  padding: 3px 15px;
+  background: #e34c26;
+  color: #fff;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.value {
+  font-weight: bold;
+}

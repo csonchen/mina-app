@@ -1,8 +1,11 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/main/main",
     "pages/normalTimePage/normalTimePage",
     "pages/workerTimePage/workerTimePage",
+    "pages/observerPage/observerPage",
+    "pages/observerPage/operate",
     "pages/logs/logs"
   ],
   "window": {
