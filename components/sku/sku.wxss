@@ -1,0 +1,115 @@
+.sku {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.sku-body {
+  padding-bottom: 0px;
+  height: 460px;
+  bottom: -460px;
+  transition: 300ms ease 0ms;
+  transition-property: transform,bottom;
+  transform-origin: 50% 50% 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.sku-info {
+  height: 140px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.sku-image {
+  width: 100px;
+  height: 100px;
+  background-color: #f6f6f6;
+  margin: 20px 15px;
+  border-radius: 4px;
+}
+
+.sku-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.redColor {
+  color: #fe473c;
+}
+
+.grayColor {
+  color: #fe473c;
+}
+
+.darkColor {
+  color: #323232;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.font16 {
+  font-size: 16px;
+}
+
+.sku-scroll {
+  width: 100vw;
+  flex: 1;
+  overflow: hidden;
+}
+
+.scrollview {
+  width: 100vw;
+  overflow: hidden;
+  background-color: white;
+  height: 270px;
+}
+
+.scrollview-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 10px 15px;
+}
+
+.sku-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-flow: wrap;
+  margin-bottom: 24px;
+}
+
+.sku-list-item {
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 6px 15px;
+  margin-right: 15px;
+  margin-top: 12px;
+}
+
+.sku-list-item.selected {
+  background-color: #FFF4F4;
+  border: 1px solid #FE473C;
+  color: #FE473C;
+}

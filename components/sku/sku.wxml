@@ -1,0 +1,32 @@
+<view class="sku">
+  <view class="sku-body">
+    <view class="sku-info">
+      <image class="sku-image" src="https://img1.tianhong.cn/upload/pd/m/shouji/20199/ViKqbpzDYLadn6XoUNr14s9f_390x390.jpg" />
+    
+      <view class="sku-content">
+        <label class="font16 redColor">$100</label>
+        <label class="font12 grayColor">库存100</label>
+      </view>
+    </view>
+
+    <view class="sku-scroll">
+      <scroll-view class="scrollview">
+        <view class="scrollview-item">
+          <view class="font14 darkColor">颜色</view>
+          <view class="sku-list">
+            <view class="sku-list-item.selected">黑色</view>
+            <view class="sku-list-item">白色</view>
+          </view>
+        </view>
+
+        <view class="scrollview-item">
+          <view class="font14 darkColor">手机内存</view>
+          <view class="sku-list">
+            <view class="sku-list-item.selected">64GB</view>
+            <view class="sku-list-item">128GB</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>
