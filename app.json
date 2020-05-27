@@ -1,13 +1,15 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/logs/logs",
+
     "pages/main/main",
     "pages/main/normalTimePage",
     "pages/main/workerTimePage",
     
     "pages/observerPage/observerPage",
     "pages/observerPage/operate",
-    "pages/logs/logs"
+    "pages/observerPage/modalPage"
   ],
   "window": {
     "backgroundTextStyle": "light",

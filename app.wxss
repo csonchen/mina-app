@@ -51,3 +51,7 @@ image {
   text-align: left;
   font-size: 16px;
 }
+
+.text-left {
+  text-align: left;
+}
