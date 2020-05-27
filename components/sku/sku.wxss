@@ -113,3 +113,8 @@
   border: 1px solid #FE473C;
   color: #FE473C;
 }
+
+.sku-list-item.disabled {
+  border: 1px dashed #dadada;
+  color: #999;
+}

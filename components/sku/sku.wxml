@@ -16,6 +16,7 @@
           <view class="sku-list">
             <view class="sku-list-item.selected">黑色</view>
             <view class="sku-list-item">白色</view>
+            <view class="sku-list-item disabled">红色</view>
           </view>
         </view>
 
