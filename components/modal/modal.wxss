@@ -1,0 +1,23 @@
+/* components/modal.wxss */
+.mask {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .5);
+}
+
+.textModal {
+  position: fixed;
+  top: 50%;
+  z-index: 100;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 200px;
+  width: 70%;
+}

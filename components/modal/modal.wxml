@@ -1,0 +1,8 @@
+<!--components/modal.wxml-->
+<view>
+  <view class="mask"></view>
+  <view class="textModal" wx:if="{{type == 'text'}}">{{value}}</view>
+  <view class="picModal" wx:if="{{type == 'pic'}}">
+    <image src="{{pic}}"></image>
+  </view>
+</view>

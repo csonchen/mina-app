@@ -27,7 +27,8 @@ const modalData = [
  */
 class ModalManage {
   constructor(modalList) {
-    this.modalList = modalList
+    this.modalList = modalList.sort((prev, next) => -(prev.level - next.level))
+    console.log(modalList)
   }
 
   listen() {
@@ -35,16 +36,11 @@ class ModalManage {
   }
 
   trigger() {
-    this.modalList = this.modalList.sort((prev, next) => prev.level - next.level)
-    this.modalList.map(item => {
-
-    })
   }
 }
 
 Page({
   onLoad() {
-    const result = modalData.sort((prev, next) => -(prev.level - next.level))
-    console.log(result)
+    const modalManage = new ModalManage(modalData)
   }
 })
