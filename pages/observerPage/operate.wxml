@@ -1,8 +1,8 @@
 <view>
-  <view class="page__hd">列表</view>
+  <view class="page__hd">详情</view>
 
   <view class="page__bd page__bd_spacing">
+    <text class="value">· 第{{id}}项</text>
     <text class="del-btn" bind:tap="handleDel">删除</text>
-    <text class="value">第{{id}}项</text>
   </view>
 </view>

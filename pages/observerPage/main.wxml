@@ -1,11 +1,11 @@
 <view class="">
   <view class="page__hd font20 bold">
-    <view class="page__title">小程序开发倒计时的思考</view>
+    <view class="page__title">发布-订阅模式的运用</view>
   </view>
 
   <view class="page__bd page__bd_spacing">
     <view class="btn-group flex flex-column">
-      <navigator class="normal-btn mb15" url="/pages/main/normalTimePage">1. 定时器组件</navigator>
+      <navigator class="normal-btn mb15" url="/pages/observerPage/observerPage">1. 列表页 —— 详情页</navigator>
       <navigator class="normal-btn mb15" url="/pages/main/workerTimePage">2. worker组件</navigator>
     </view>
   </view>

@@ -2,6 +2,6 @@
   <view class="flex-column flex-center-xy">
     <view class="font20 bold mb20">小程序日常思考和练习</view>
     <navigator class="normal-btn mb15" url="/pages/main/main">1. 小程序开发倒计时的思考</navigator>
-    <navigator class="normal-btn mb15" url="/pages/observerPage/observerPage">2. 发布-订阅模式的运用</navigator>
+    <navigator class="normal-btn mb15" url="/pages/observerPage/main">2. 发布-订阅模式的运用</navigator>
   </view>
 </view>

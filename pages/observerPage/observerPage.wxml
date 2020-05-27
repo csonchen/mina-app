@@ -3,7 +3,7 @@
 
   <view class="page__bd page__bd_spacing">
     <view data-item="{{item}}" bindtap="toOperatePage" class="list-item" wx:for="{{list}}" wx:key="index" wx:for-item="item">
-      · {{item.value}}
+      · {{item.value}}  <text class="link">跳转</text>
     </view>
   </view>
 </view>

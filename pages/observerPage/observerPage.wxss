@@ -2,3 +2,10 @@
   padding: 5px 0;
   font-weight: bold;
 }
+
+.link {
+  margin-left: 10px;
+  color: purple;
+  font-size: 14px;
+  text-decoration: underline;
+}

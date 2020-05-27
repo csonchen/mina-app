@@ -46,8 +46,8 @@ image {
 }
 
 .page__desc {
-  margin-top: 5px;
+  margin-bottom: 15px;
   color: #888;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
 }
