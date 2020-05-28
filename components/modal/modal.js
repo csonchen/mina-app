@@ -1,36 +1,36 @@
-// components/modal.js
+const Event = require('../../designPatterns/observer');
+
 Component({
-  /**
-   * 组件的属性列表
-   */
+  options: {
+    multipleSlots: true,
+  },  
+
   properties: {
-    value: {
-      type: String,
-      value: ''
-    },
-
-    type: {
-      type: String,
-      value: 'text'
-    },
-
-    pic: {
-      type: String,
-      value: ''
-    }
   },
 
-  /**
-   * 组件的初始数据
-   */
   data: {
-
+    value: '',
+    type: 'pic',
+    pic: '/asserts/OIP.jpeg',
+    show: false,
   },
 
-  /**
-   * 组件的方法列表
-   */
-  methods: {
+  attached() {
+    Event.listen('modal', (props) => {
+      this.setData({
+        ...props,
+        show: true,
+      })
+    })
+  },
 
+  methods: {
+    hide() {
+      this.setData({ show: false })
+    },
+
+    show() {
+      this.setData({ show: true })
+    }
   }
 })

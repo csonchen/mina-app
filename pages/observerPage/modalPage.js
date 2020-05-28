@@ -5,19 +5,19 @@ const modalData = [
   {
     id: 1,
     level: 10,
-    type: 'textModal',
+    type: 'text',
     data: '我是文本弹窗1',
   },
   {
     id: 2,
     level: 11,
-    type: 'picModal',
+    type: 'pic',
     data: ""
   },
   {
     id: 3,
     level: 9,
-    type: 'textModal',
+    type: 'custom',
     data: '我是文本弹窗2',
   }
 ]

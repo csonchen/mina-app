@@ -1,5 +1,5 @@
 /* components/modal.wxss */
-.mask {
+.modal {
   position: fixed;
   z-index: 99;
   top: 0;
@@ -9,15 +9,34 @@
   background: rgba(0, 0, 0, .5);
 }
 
+.modalContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .textModal {
-  position: fixed;
-  top: 50%;
-  z-index: 100;
   padding: 10px 20px;
   background-color: #fff;
   border-radius: 5px;
-  left: 50%;
-  transform: translate(-50%, -50%);
   min-height: 200px;
-  width: 70%;
+  width: 60%;
+}
+
+.close-icon {
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.picModal {
+  display: flex;
+  justify-content: center;
+}
+
+.adImg {
+  max-width: 80%;
 }
