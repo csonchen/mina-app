@@ -1,46 +1,47 @@
 const Event = require('../../designPatterns/observer');
-
-// modal mock data
-const modalData = [
-  {
-    id: 1,
-    level: 10,
-    type: 'text',
-    data: '我是文本弹窗1',
-  },
-  {
-    id: 2,
-    level: 11,
-    type: 'pic',
-    data: ""
-  },
-  {
-    id: 3,
-    level: 9,
-    type: 'custom',
-    data: '我是文本弹窗2',
-  }
-]
-
-/**
- * 模态窗管理类
- */
-class ModalManage {
-  constructor(modalList) {
-    this.modalList = modalList.sort((prev, next) => -(prev.level - next.level))
-    console.log(modalList)
-  }
-
-  listen() {
-
-  }
-
-  trigger() {
-  }
-}
+const ModalManage = require('../../model/ModalManage');
 
 Page({
+  modalData: [
+    {
+      id: 1,
+      level: 10,
+      type: 'text',
+      value: '我是文本弹窗1',
+    },
+    {
+      id: 2,
+      level: 11,
+      type: 'pic',
+      value: '/asserts/OIP.jpeg'
+    },
+    {
+      id: 3,
+      level: 9,
+      type: 'text',
+      value: '我是文本弹窗2',
+    },
+    {
+      id: 4,
+      level: 10,
+      type: 'activity',
+      value: '我是活动弹窗啦啦啦啦'
+    }
+  ],
+
   onLoad() {
-    const modalManage = new ModalManage(modalData)
+    this.modalManage = new ModalManage(this.modalData)
+    this.modalManage.triggerModal()
+    // this.modalData = this.modalData.sort((prev, next) => -(prev.level - next.level))
+    // this.triggerModal()
+  },
+
+  triggerModal() {
+    this.modalManage.triggerModal()
+
+    // const targetModalList = this.modalData.splice(0, 1)
+    // if (targetModalList && targetModalList.length > 0) {
+    //   Event.trigger('modal', targetModalList[0])
+    // }
   }
 })

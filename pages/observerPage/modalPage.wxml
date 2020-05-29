@@ -1,3 +1,4 @@
 <view>
-  <modal value="test" />
+  <modal bind:hide="triggerModal"/>
+  <activityModal bind:hide="triggerModal" />
 </view>

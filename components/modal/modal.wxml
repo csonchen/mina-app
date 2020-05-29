@@ -1,14 +1,14 @@
 <!--components/modal.wxml-->
-<view class="modal">
+<view class="modal" wx:if="{{ show }}">
   <view class="modalContent">
-    <view class="textModal" wx:if="{{type == 'text'}}">{{value}}</view>
-    <view class="picModal" wx:elif="{{type == 'pic'}}">
-      <image class="adImg" mode="widthFix" src="{{pic}}"></image>
+    <view class="textModal" wx:if="{{ type == 'text' }}">{{ value }}</view>
+    <view class="picModal" wx:elif="{{ type == 'pic' }}">
+      <image class="adImg" mode="widthFix" src="{{ value }}"></image>
     </view>
     <view class="customModal">
       <slot name="customModal"></slot>
     </view>
-    <view class="flex flex-center">
+    <view class="flex flex-center" bindtap="hide">
       <image class="close-icon" src="/asserts/icon_bt_close_white.png" />
     </view>
   </view>

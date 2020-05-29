@@ -10,12 +10,11 @@ Component({
 
   data: {
     value: '',
-    type: 'pic',
     show: false,
   },
 
   attached() {
-    Event.listen('modal', (props) => {
+    Event.listen('activityModal', (props) => {
       this.setData({
         ...props,
         show: true,

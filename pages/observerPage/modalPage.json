@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "modal": "/components/modal/modal"
+    "modal": "/components/modal/modal",
+    "activityModal": "/components/modal/activityModal"
   }
 }

@@ -1,0 +1,9 @@
+<!--components/modal.wxml-->
+<view class="modal" wx:if="{{ show }}">
+  <view class="modalContent">
+    <view class="textModal">{{ value }}</view>
+    <view class="flex flex-center" bindtap="hide">
+      <image class="close-icon" src="/asserts/icon_bt_close_white.png" />
+    </view>
+  </view>
+</view>
