@@ -6,7 +6,7 @@
   <view class="page__bd page__bd_spacing">
     <view class="btn-group flex flex-column">
       <navigator class="normal-btn mb15 text-left" url="/pages/observerPage/observerPage">1. 列表页 —— 详情页管理</navigator>
-      <navigator class="normal-btn mb15 text-left" url="/pages/main/workerTimePage">2. 多弹窗管理</navigator>
+      <navigator class="normal-btn mb15 text-left" url="/pages/observerPage/modalPage">2. 多弹窗管理</navigator>
     </view>
   </view>
 </view>
