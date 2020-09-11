@@ -10,4 +10,5 @@ echo 您输入的分支名是：%branch%
 git checkout .
 git checkout %branch%
 git pull origin %branch%
+echo "恭喜你，代码拉取成功了，按任意键退出程序。"
 pause
