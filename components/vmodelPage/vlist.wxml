@@ -1,0 +1,6 @@
+<view class="weui-cells weui-cells_after-title">
+  <view wx:for="{{list}}" data-index="{{index}}" bindtap="onDelete" wx:key="index" wx:for-item="item" class="weui-cell" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">{{item}}</view>
+    <view class="weui-cell__ft" style="color: red;font-size: 14px;">删除</view>
+  </view>
+</view>

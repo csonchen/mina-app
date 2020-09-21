@@ -1,0 +1,37 @@
+<view class="listpage">
+  <view class="weui-form">
+    <view class="weui-form__control-area">
+			<view class="weui-form__title" style="padding: 0 20px;">双向数据绑定</view>
+      <!--普通数据绑定-->
+			<view class="weui-cells__group weui-cells__group_form">
+				<view class="weui-cells__title">1. 普通数据绑定</view>
+				<view class="weui-cells weui-cells_form">
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd"><label class="weui-label">输入框</label></view>
+						<view class="weui-cell__bd">
+							<input class="weui-input" value="{{value1}}" placeholder="请输入" placeholder-class="weui-input__placeholder" bind:input="onInput"/>
+            </view>
+          </view>
+          <view class="weui-cell">您输入的值：{{value1}}</view>
+				</view>
+      </view>      
+      <!--双向数据绑定-->
+			<view class="weui-cells__group weui-cells__group_form">
+				<view class="weui-cells__title">2. 双向数据绑定</view>
+				<view class="weui-cells weui-cells_form">
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd"><label class="weui-label">输入框</label></view>
+						<view class="weui-cell__bd">
+							<input class="weui-input" model:value="{{value2}}" placeholder="请输入" placeholder-class="weui-input__placeholder" />
+            </view>
+          </view>
+          <view class="weui-cell">您输入的值：{{value2}}</view>
+				</view>
+      </view>
+		</view>
+
+		<view class="weui-form__control-area">
+			<view class="weui-form__title" style="padding: 0 20px;">数据监听器</view>
+		</view>
+  </view>
+</view>

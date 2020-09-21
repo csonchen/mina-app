@@ -9,7 +9,9 @@
     
     "pages/observerPage/observerPage",
     "pages/observerPage/operate",
-    "pages/observerPage/modalPage"
+    "pages/observerPage/modalPage",
+
+    "pages/vmodelPage/list"
   ],
   "window": {
     "backgroundTextStyle": "light",
