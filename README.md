@@ -6,6 +6,8 @@
 
 ## 文章
 
+- [双向数据绑定 & 数据监听器](https://github.com/csonchen/mina-app/blob/master/wiki/%E5%8F%8C%E5%90%91%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A%20%26%20%E6%95%B0%E6%8D%AE%E7%9B%91%E5%90%AC%E5%99%A8.md)
+
 - [解放小程序测试人员工具](https://github.com/csonchen/mina-app/blob/master/wiki/%E8%A7%A3%E6%94%BE%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%B5%8B%E8%AF%95%E4%BA%BA%E5%91%98%E5%B7%A5%E5%85%B7.md)
 
 - [页面onHide的时候，页面倒计时组件需要清除吗](https://github.com/csonchen/mina-app/blob/master/wiki/%E9%A1%B5%E9%9D%A2onHide%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8C%E9%A1%B5%E9%9D%A2%E5%80%92%E8%AE%A1%E6%97%B6%E7%BB%84%E4%BB%B6%E9%9C%80%E8%A6%81%E6%B8%85%E9%99%A4%E5%90%97.md)
