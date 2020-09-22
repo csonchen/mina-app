@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "vlist": "/components/vmodelPage/vlist"
+    "vlist": "/components/vmodelPage/vlist",
+    "vobserver": "/components/vmodelPage/vobserver"
   }
 }

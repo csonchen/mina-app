@@ -1,0 +1,45 @@
+
+<view class="weui-form__control-area">
+  <view class="weui-form__title" style="padding: 0 20px;">数据监听器</view>
+  <view class="weui-cells__group weui-cells__group_form">
+    <view class="weui-cells__title">1. proxy实现属性监听器</view>
+    <view class="weui-cells weui-cells_form">
+      <view class="weui-cell weui-cell_active">
+        <view class="weui-cell__hd"><label class="weui-label">市场价</label></view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" data-type="marketPrice" bind:input="onInput" value="{{productInfo.marketPrice}}" placeholder="请输入市场价" placeholder-class="weui-input__placeholder" />
+        </view>
+      </view>
+      <view class="weui-cell weui-cell_active">
+        <view class="weui-cell__hd"><label class="weui-label">折扣价</label></view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" data-type="discount" bind:input="onInput" value="{{productInfo.discount}}" placeholder="请输入折扣价" placeholder-class="weui-input__placeholder" />
+        </view>
+      </view>
+      <view class="weui-cell">
+        销售价 <text style="font-size: 12px;color: #999; margin-left: 5px;">(销售价=市场价-折扣价)</text>：{{salePrice2 < 0 ? 0 : salePrice2}}
+      </view>
+    </view>
+  </view>
+
+  <view class="weui-cells__group weui-cells__group_form">
+    <view class="weui-cells__title">2. model双向数据绑定 + 数据监听器</view>
+    <view class="weui-cells weui-cells_form">
+      <view class="weui-cell weui-cell_active">
+        <view class="weui-cell__hd"><label class="weui-label">市场价</label></view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" model:value="{{marketPrice}}" placeholder="请输入市场价" placeholder-class="weui-input__placeholder" />
+        </view>
+      </view>
+      <view class="weui-cell weui-cell_active">
+        <view class="weui-cell__hd"><label class="weui-label">折扣价</label></view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" model:value="{{discount}}" placeholder="请输入折扣价" placeholder-class="weui-input__placeholder" />
+        </view>
+      </view>
+      <view class="weui-cell">
+        销售价 <text style="font-size: 12px;color: #999; margin-left: 5px;">(销售价=市场价-折扣价)</text>：{{salePrice}}
+      </view>
+    </view>
+  </view>
+</view>
