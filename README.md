@@ -6,6 +6,8 @@
 
 ## 文章
 
+- [你的小程序项目组件引入情况？](https://github.com/csonchen/mina-app/blob/master/wiki/%E4%BD%A0%E7%9A%84%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%BB%84%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5.md)
+
 - [双向数据绑定 & 数据监听器](https://github.com/csonchen/mina-app/blob/master/wiki/%E5%8F%8C%E5%90%91%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A%20%26%20%E6%95%B0%E6%8D%AE%E7%9B%91%E5%90%AC%E5%99%A8.md)
 
 - [解放小程序测试人员工具](https://github.com/csonchen/mina-app/blob/master/wiki/%E8%A7%A3%E6%94%BE%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%B5%8B%E8%AF%95%E4%BA%BA%E5%91%98%E5%B7%A5%E5%85%B7.md)
